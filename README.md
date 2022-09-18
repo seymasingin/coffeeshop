@@ -1,2 +1,3 @@
 # coffeeshop
-This work is the first project of mine.
+This work is my first web project.
+In this work, I have practiced html, css and js.
