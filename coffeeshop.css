@@ -1,0 +1,69 @@
+body{
+    background-color:rgb(174, 174, 174);
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+header{
+  display: inline;
+}
+    
+.logo{
+  border-style: solid;
+  border-color:black;
+  width: 120px;
+  font-size: 25px;
+  float:left;
+  padding: 14px;
+}
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  float:left;
+}
+
+li{
+  float:left;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #60a189;
+}
+
+form{
+  float:right;
+  
+}
+
+
+
+footer{
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  color: black;  
+}
+
+footer a{
+  color: black;
+}
+
+
+
+
+
+
+
+
