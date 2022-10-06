@@ -1,7 +1,8 @@
 body{
-    background-color:rgb(174, 174, 174);
+    background-color:rgb(224, 218, 213);
     font-family: "Lucida Console", "Courier New", monospace;
-
+    
+    
 }
 header{
   display: inline;
@@ -20,6 +21,7 @@ ul{
   list-style-type: none;
   overflow: hidden;
   float:left;
+  margin-top: 30px;
 }
 
 li{
@@ -29,12 +31,12 @@ li{
 li a {
   display: block;
   color: black;
-  padding: 14px 16px;
+  padding: 14px ;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(103, 103, 103);
 }
 
 .active {
@@ -43,6 +45,22 @@ li a:hover:not(.active) {
 
 form{
   float:right;
+  padding: 24px;
+  
+  
+}
+
+#image1{
+  background-image: url("img/journey.jpg") 500px 350px;
+  width:500px; 
+  height:350px;
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  clear: both;
+  font-size: 40px;
   
 }
 
