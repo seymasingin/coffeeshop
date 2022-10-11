@@ -10,15 +10,22 @@
     </head>
     <body>
         <header>
-            <p class="logo"> COFFEE <br> SHOP </p>
+        <p class="logo"> COFFEE <br> SHOP </p>
 
-        <div>
-        <ul>
-        <li><a class="active" href='about'>ABOUT</a> </li>
-        <li><a href="menu"> MENU</a> </li>
-        <li><a href="blog"> BLOG </a> </li>
-        <li><a href="contact">CONTACT</a> </li>
-        </ul>
+        <div class="navbar">
+        <a class="active" href='about'>ABOUT</a> 
+        <div class="menu">
+        <button class="button"> MENU</button>
+            <div class="content">
+            <a href="coffee"> COFFEE </a>
+            <a href="desert"> DESERT </a>
+            <a href="bowl"> BOWL </a>
+            <a href="salad"> SALAD </a>
+            </div>
+        </div>
+        <a href="blog"> BLOG </a> 
+        <a href="contact">CONTACT</a> 
+        
         </div>
 
         <form>
@@ -29,26 +36,35 @@
 
         </header>
 
-        <div>
-        <p id="image1">
-            
-            JOURNEY OF COFFEE
-        </p>
-        <p id="image2">
-            BREWING TECHNIQUES
-        </p>
 
+        <div class="images">
+        <div class="image1">
+        <img class="img1" src="img/journey.jpg"  width="500" height="350">
+        <p class="center"> JOURNEY OF COFFEE</p>
+        </div>
+        
+        <div class="image2">
+        <img class="img2" src="img/main.jpg"  width="250" height="350">
+        <p class="center"> BREW TECHNIQUES </p>  
+        </div>
+        
+        <div class="image3">
+        <img class="img3" src="img/taste.jpg"  width="300" height="350">
+        <p class="center"> TASTING DAYS </p>
         </div>
 
-
-
-        
-        
+        <div class="image4">
+        <img class="img4" src="img/shop.png"  width="400" height="350">
+        <p class="center"> SHOPS </p>
+        </div>
+        </div>
+    
     </body>
 
 
     <footer>
-        <p>Author: Seyma Singin</p>
+        <p cass="foot">Author: Seyma Singin</p>
         <p><a href="seymasingin@gmail.com">seymasingin@gmail.com</a></p>
+        
     </footer>
 </html>
