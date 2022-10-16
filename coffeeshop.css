@@ -125,6 +125,11 @@ form{
   font-size: 25px;
   color: white;
 }
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover {
+  opacity: 1;
+}
+
 footer{
   position: absolute;
   bottom: 0;
