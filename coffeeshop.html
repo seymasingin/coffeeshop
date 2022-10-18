@@ -38,27 +38,60 @@
 
 
         <div class="images">
-        <div class="image1">
-        <img class="img1" src="img/journey.jpg"  width="500" height="350">
-        <p class="center"> JOURNEY OF COFFEE</p>
-        </div>
-        
-        <div class="image2">
-        <img class="img2" src="img/main.jpg"  width="250" height="350">
-        <p class="center"> BREW TECHNIQUES </p>  
-        </div>
-        
-        <div class="image3">
-        <img class="img3" src="img/taste.jpg"  width="300" height="350">
-        <p class="center"> TASTING DAYS </p>
+            <div class="image1">
+                <img class="img" src="img/journey.jpg"  width="500" height="350">
+                <p class="center"> JOURNEY OF COFFEE</p>
+            </div>
+            
+            <div class="image2">
+                <img class="img" src="img/main.jpg"  width="250" height="350">
+                <p class="center"> BREW TECHNIQUES </p>  
+            </div>
+            
+            <div class="image3">
+                <img class="img" src="img/taste.jpg"  width="300" height="350">
+                <p class="center"> TASTING DAYS </p>
+            </div>
+
+            <div class="image4">
+                <img class="img" src="img/shop.png"  width="400" height="350">
+                <p class="center"> SHOPS </p>
+            </div>
         </div>
 
-        <div class="image4">
-        <img class="img4" src="img/shop.png"  width="400" height="350">
-        <p class="center"> SHOPS </p>
-        </div>
-        </div>
+        <div class:promotions>
+            <button class="left_arrow" onclick="plusDivs(-1)">&#10094;</button>
+
+            <p class="promo"> HAVE YOUR 10TH COFFEE ON US </p>
+            <p class="promo"> FREE DOMESTIC SHIPPING WITH $75 PURCHASE </p>
+            <p class="promo"> INVITE A FRIEND, ENJOY YOUR FREE DRINK </p>
+            <p class="promo"> COME WITH YOUR OWN THERMOS, EARN A STAR </p>
+            <p class="promo"> DESERTS ARE %25 OFF FOR PREMIUM MEMBERS </p>
+
+            <button class="right_arrow" onclick="plusDivs(1)">&#10095;</button>
+
         
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("promo");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                }
+            </script>
+        </div>
     
     </body>
 

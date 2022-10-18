@@ -14,6 +14,7 @@ header{
   font-size: 25px;
   float:left;
   padding: 14px;
+  margin-left: 25px;
 }
 
 .navbar{
@@ -77,45 +78,41 @@ form{
 }
 
 .images{
-  margin-left:1%;
-  margin-right:1%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  clear:left;
+  margin-left: 55px;
+  position:relative;
 }
 
 .image1{
   position:relative;
   float:left;
-  clear:left;
 }
-.img1{
-  opacity: 0.7;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
+.img{
+  opacity: 0.7; 
+  width:100%;
+  display:inline;
 }
 
 .image2{
   position:relative;
   float:left; 
 }
-.img2{
-  opacity: 0.7;
-}
+
 
 .image3{
   position:relative;
   float:left;  
 }
-.img3{
-  opacity: 0.7;
-}
+
 
 .image4{
   position:relative;
-  float:left;  
+  float:left;   
 }
-.img4{
-  opacity: 0.7;
-}
+
 
 .center{
   position: absolute;
@@ -130,14 +127,39 @@ form{
   opacity: 1;
 }
 
+.promotions{
+  display:inline;
+  clear:left;
+}
+
+.left_arrow{
+  clear:both;
+
+}
+
+.promo{
+display:inline;
+margin:auto;
+clear:both;
+border-style: dashed;
+border-color:black;
+padding: 20px;
+width: 150px;
+height: 150px;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+}
+
+
 footer{
-  position: absolute;
-  bottom: 0;
+  clear: both;
+  position: relative;
+  bottom:0;
   background-color: #f1f1f1;
   width: 100%;
   padding: 10px;
   text-align: center;
-  clear: both;
   color: black; 
 }
 
