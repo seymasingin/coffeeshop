@@ -77,36 +77,46 @@ header{
 
 form{
   float:right;
-  padding: 24px;
+  margin-top: 40px;
 }
 
-.aboutshop{
-  clear:both;
-  display:flex;
+input[type=text] {
+  width: 130px;
+  height:40px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 60%;
+}
+
+.shops{
+    clear:both;
+    display: flex;
+    margin-left: 55px;
+    position:relative;
+  }
   
-  align-items: center;
-  justify-content: center;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-.text{
-clear:both;
-background-color: white;
-width: 300px;
-height:250px;
-padding: 50px;
-float:left;
-font-size: 20px;
-}
-
-.coffee{
-float:left;
-margin-top: 20px;
-margin-left: 60px;
-width: 300px;
-height:250px;
-}
-
+  .shop1{
+    position:relative;
+    float:left;
+  }
+  .shop-img{
+    opacity: 0.7; 
+    width:100%;
+    display:inline;
+  }
+  .shop-content{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }

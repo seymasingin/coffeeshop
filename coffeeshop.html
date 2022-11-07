@@ -10,13 +10,14 @@
     </head>
     <body>
         <header>
-        <p class="logo"> COFFEE <br> SHOP </p>
+        <a href="file:///C:/Users/Seyma/Desktop/seyma_ws/coffeeshop/coffeeshop.html">
+        <p class="logo" >COFFEE <br> SHOP </p>
 
         <div class="navbar">
-            <a class="active" href='about'>ABOUT</a> 
-            <div class="menu">
-                <button class="button"> MENU</button>
-                <div class="content">
+            <a class="about" href="file:///C:/Users/Seyma/Desktop/seyma_ws/coffeeshop/about.html"> ABOUT</a> 
+            <div class="subnav">
+                <button class="subnavbtn"> MENU</button>
+                <div class="subnav-content">
                     <a href="coffee"> COFFEE </a>
                     <a href="desert"> DESERT </a>
                     <a href="bowl"> BOWL </a>
@@ -29,7 +30,7 @@
         </div>
 
         <form>
-        <button type="search">  <img src="img/search-icon.jpg"  width="30" height="30"/> </button>
+        <input type="text" name="search" placeholder="Search..">  
         <button type="login">  <img src="img/login.png" width="30" height="30"/></button>
         <button type="shop"> <img src="img/shopping-cart-.png" width="30" height="30"/></button>
         </form>
@@ -59,7 +60,7 @@
             </div>
         </div>
 
-        <div class:promotions>
+        <div class="promotions">
             <button class="left_arrow" onclick="plusDivs(-1)">&#10094;</button>
 
             <p class="promo"> HAVE YOUR 10TH COFFEE ON US </p>
@@ -70,12 +71,15 @@
 
             <button class="right_arrow" onclick="plusDivs(1)">&#10095;</button>
 
-        
-
             <script>
+                
+                setInterval(increment, 3000);
                 var slideIndex = 1;
                 showDivs(slideIndex);
-
+                
+                function increment() {
+                    plusDivs(1)
+                }
                 function plusDivs(n) {
                     showDivs(slideIndex += n);
                 }
@@ -102,4 +106,7 @@
         
     </footer>
 </html>
+
+
+
 
