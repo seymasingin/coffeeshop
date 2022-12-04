@@ -67,7 +67,7 @@ header{
 }
 
 .subnav-content a:hover {
-  background-color:white;
+  background-color:rgb(153, 144, 129);
   color:black;
 }
 
